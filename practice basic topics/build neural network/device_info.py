@@ -7,4 +7,5 @@ device = (
     if torch.backends.mps.is_available()
     else "cpu"
 )
+
 print(f"Using {device} device")
