@@ -4,7 +4,6 @@ from torchvision import datasets
 from torchvision.transforms import ToTensor
 import matplotlib.pyplot as plt
 
-
 training_data = datasets.FashionMNIST(
     root="data", train=True, download=True, transform=ToTensor()
 )
