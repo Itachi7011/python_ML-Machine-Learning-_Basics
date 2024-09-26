@@ -11,6 +11,7 @@ training_data = datasets.FashionMNIST(
 test_data = datasets.FashionMNIST(
     root="data", train=False, download=True, transform=ToTensor()
 )
+
 labels_map = {
     0: "T-Shirt",
     1: "Trouser",
