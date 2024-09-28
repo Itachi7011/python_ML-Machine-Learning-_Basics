@@ -2,7 +2,6 @@ import torch
 from torchvision import datasets
 from torchvision.transforms import ToTensor, Lambda
 
-
 ds = datasets.FashionMNIST(
     root="data",
     train=True,
