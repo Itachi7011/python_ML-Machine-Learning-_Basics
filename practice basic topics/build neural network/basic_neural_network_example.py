@@ -9,6 +9,7 @@ device = (
     else "cpu"
 )
 
+
 class NeuralNetwork(nn.Module):
     
     def __init__(self):
